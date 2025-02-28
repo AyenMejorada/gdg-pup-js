@@ -29,13 +29,11 @@ var temperature = 26;
 var hasPets = true;
 var colors = ["pink", "black", "silver"];
 
-// Checking types and values
 console.log("Type of city:", typeof city, "| Value:", city);
 console.log("Type of temperature:", typeof temperature, "| Value:", temperature);
 console.log("Type of hasPets:", typeof hasPets, "| Value:", hasPets);
 console.log("Type of colors:", typeof colors, "| Value:", colors);
 
-// Demonstrating var hoisting
 console.log("Hoisted variable before declaration:", hoistedVar); // Undefined due to hoisting
 var hoistedVar = "I'm hoisted!";
 console.log("Hoisted variable after declaration:", hoistedVar);
